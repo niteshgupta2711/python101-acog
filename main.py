@@ -9,9 +9,9 @@ from typing import Optional
 app = typer.Typer()
 
 
-# @app.command()
-# def helloworld(string: str) -> Optional[str]:
-#     print("Hello world")
+@app.command()
+def helloworld(string: str) -> Optional[str]:
+    print("Hello world")
 
 
 # for string type checking use mypy module_name.py
